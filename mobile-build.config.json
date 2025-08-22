@@ -1,0 +1,34 @@
+{
+  "name": "In The Club We All Fam",
+  "slug": "club-fam",
+  "version": "1.0.0",
+  "orientation": "portrait",
+  "icon": "./public/icon-512.png",
+  "userInterfaceStyle": "light",
+  "splash": {
+    "image": "./public/icon-512.png",
+    "resizeMode": "contain",
+    "backgroundColor": "#ffffff"
+  },
+  "assetBundlePatterns": [
+    "**/*"
+  ],
+  "ios": {
+    "supportsTablet": true,
+    "bundleIdentifier": "com.clubfam.app"
+  },
+  "android": {
+    "adaptiveIcon": {
+      "foregroundImage": "./public/icon-512.png",
+      "backgroundColor": "#ffffff"
+    },
+    "package": "com.clubfam.app"
+  },
+  "web": {
+    "favicon": "./public/vite.svg",
+    "bundler": "vite"
+  },
+  "isPublic": true,
+  "buildType": "preview",
+  "deploymentTarget": "mobile"
+}
